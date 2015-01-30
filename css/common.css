@@ -1,0 +1,88 @@
+/* ==========================================================================
+Author: Michael J. Duve
+Modified by: Ross H. Capaccio
+Date: 01-26-2015
+Project: 1-26 Lab/Homework, style a personal resume
+Resources: html.zip
+   ========================================================================== */
+
+
+
+.wrapper {
+	width: 960px;
+	border: 5px solid goldenrod;
+	background-color: white;
+	padding: 30px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+body {
+  color: #555;
+  font: 300 16px/22px "Quicksand", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+aside {
+  display: inline-block;
+  clear:both;
+  float: left;
+  width: 360px;
+  height: 25px;
+
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 225%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+p {
+    font-size: 100%;
+    font-weight: 300;
+    
+}
+
+h1, h2, h3 {
+color: goldenrod;
+}
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.resume {
+background-color: cornsilk;
+background-image: url(images/Elegant_Background-2.jpg);
+ background: radial-gradient(goldenrod, #293f50);
+
+
+/*	legacy code		
+.job {
+	display: inline-block;
+	float: left;
+	clear:both;
+	width:960px;
+	height:200px;
+}
+
+*/
+
+
+
+
